@@ -1,4 +1,7 @@
 {
+  "script" : { 
+    "start" : "node app.js"
+  },
   "name": "mock",
   "version": "1.0.0",
   "description": "Mock",
