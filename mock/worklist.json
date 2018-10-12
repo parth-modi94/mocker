@@ -1,0 +1,34 @@
+{
+  "Data": {
+    "CustomerOfferID": "customer123",
+    "Status": "pending",
+    "StatusDateTime": "2018-10-08T08:59:42.384Z",
+    "CreatedDate": "2018-10-08T08:59:42.384Z",
+    "AssignedUser": "parth",
+    "TotalAmount": 0,
+    "TargetCustomer": {
+      "BankCustomerId": "customerid123",
+      "Name": "jay shah"
+    },
+    "Product": {
+      "Name": "product1",
+      "ProductCategory": "category1"
+    },
+    "Organization": {
+      "OrganizationId": "organization01",
+      "OrganizationType": "organizationtype1"
+    },
+    "TransferCause": "cause"
+  },
+  "Meta": {
+    "TotalPages": 1,
+    "TotalRecords": 1
+  },
+  "Links": {
+    "Self": "string",
+    "First": "string",
+    "Prev": "string",
+    "Next": "string",
+    "Last": "string"
+  }
+}
