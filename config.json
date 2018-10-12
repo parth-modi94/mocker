@@ -28,7 +28,19 @@
 				"userIduser1passwordgood": {"httpStatus": 200, "mockFile": "frozen.json"},
 				"userIdparthpasswordgood": {"httpStatus": 200, "mockFile": "titanic.json"}
 			}
-        }
+		
+        },
+		"worklist":{
+			"verbs": ["get"],
+            "switch": ["CustomerOfferId"],
+            "responses": {
+                "get": {"httpStatus": 404, "mockFile": "error.json"}
+            },
+            "switchResponses": {
+                "CustomerOfferIdcustomer123": {"httpStatus": 200, "mockFile": "worklist.json"}
+            }
+			
+		}
     
 	}
 }
