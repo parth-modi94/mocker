@@ -1,0 +1,15 @@
+{
+  "bankCustomerId": 555,
+  "identification": [
+    {
+      "associatedDocumentId": 88,
+      "declaration": "BHPSampleUnknownData",
+      "expiryDate": "04/05/2024",
+      "identificationCardNumber": "498476541654541",
+      "identificationId": "145",
+      "identifiedMarket": "BHPSampleUnknownData",
+      "issueDate": "10/10/2011",
+      "typeOfIdentification": "Civil ID"
+    }
+  ]
+}

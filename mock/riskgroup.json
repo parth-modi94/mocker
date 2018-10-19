@@ -1,0 +1,18 @@
+{
+  "bankCustomerID": 555,
+  "riskGroup": {
+    "person": [
+      {
+        "accountCreationDate": "04/08/2014",
+        "bankCustomerId": 555,
+        "bondageList": "BHPSampleUnknownData",
+        "companyRegistrationDate": "02/08/1998",
+        "name": "BHPSampleUnknownData",
+        "personId": 2458,
+        "riskScore": 3,
+        "softInfo": "BHPSampleUnknownData"
+      }
+    ],
+    "riskGroupID": 0
+  }
+}

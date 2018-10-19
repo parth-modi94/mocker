@@ -1,0 +1,10 @@
+{
+  "amount": 12000,
+  "associatedDocumentId": 120,
+  "bankCustomerID": 555,
+  "incomeType": "Salary",
+  "month1Income": 12000,
+  "month2Income": 11500,
+  "month3Income": 11750,
+  "monthlyAverage": 11800
+}

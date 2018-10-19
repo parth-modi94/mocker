@@ -1,0 +1,19 @@
+{
+  "bankCustomerId": 555,
+  "branch": "Tel Aviv",
+  "childrenUnder21": true,
+  "clientLine": "BHPSampleUnknownData",
+  "customerConductClassification": "BHPSampleUnknownData",
+  "customerStatus": "Active",
+  "financialCapability": "BHPSampleUnknownData",
+  "foreignStatusCertification": "BHPSampleUnknownData",
+  "knowYourCustomerCheckType": "BHPSampleUnknownData",
+  "livingDetail": "BHPSampleUnknownData",
+  "politicalExposureType": "BHPSampleUnknownData",
+  "regulatoryScore": 3,
+  "relationshipManager": "David",
+  "riskEvaluationDate": "05/10/2018",
+  "riskGroupId": 5,
+  "riskLevel": "LOW",
+  "sourceOfWealth": "Salary"
+}

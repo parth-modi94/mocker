@@ -1,0 +1,18 @@
+{
+  "bankCustomerID": 555,
+  "obligations": [
+    {
+      "amount": 4500,
+      "associatedDocumentId": 129,
+      "bank": "Bank Hapoalim",
+      "endDate": "05/09/2019",
+      "monthlyRepaymentAmount": 450,
+      "obligationId": 48745,
+      "obligationStatus": "Active",
+      "obligationType": "Loans and Advances",
+      "outstandingAmount": 3600,
+      "productName": "Advance Loans",
+      "sourceofPayment": "Salary"
+    }
+  ]
+}
