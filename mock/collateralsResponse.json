@@ -1,0 +1,27 @@
+{
+  "bankCustomerID": 123,
+  "collaterals": [
+    {
+      "amount": 50000,
+      "associatedDocumentId": docId1,
+      "collateralOwnership": 1000,
+      "collateralStatus": "string",
+      "collateralType": "string",
+      "collatralAmount": 0,
+      "valuationDate": "string"
+    }
+  ],
+  "counterPartyRisk": {
+    "totalCollateralAfterHairCut": 0,
+    "totalCollateralAmount": 0,
+    "totalCollateralCurrentValue": 0,
+    "totalExistingCollateralAfterHaircut": 0,
+    "totalExistingCollateralCurrentValue": 0,
+    "totalExistingObligations": 0,
+    "totalExposedAmount": 0,
+    "totalObligations": 0,
+    "totalRequestedCollaraterCurrentValue": 0,
+    "totalRequestedCollateralAfterHairCut": 0,
+    "totalRequestedObligations": 0
+  }
+}
