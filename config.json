@@ -32,7 +32,7 @@
 				}
 			},
 			"switchResponses": {
-				"customerIdcustomer123": {
+				"customerId123": {
 					"httpStatus": 200,
 					"mockFile": "collateralsResponse.json"
 				}
@@ -49,7 +49,7 @@
 				}
 			},
 			"switchResponses": {
-				"customerIdcustomer123": {
+				"customerId123": {
 					"httpStatus": 200,
 					"mockFile": "Account.json"
 				}
@@ -66,7 +66,7 @@
 				}
 			},
 			"switchResponses": {
-				"customerIdcustomer123": {
+				"customerId123": {
 					"httpStatus": 200,
 					"mockFile": "Basicinfo.json"
 				}
@@ -83,7 +83,7 @@
 				}
 			},
 			"switchResponses": {
-				"customerIdcustomer123": {
+				"customerId123": {
 					"httpStatus": 200,
 					"mockFile": "Contactpoints.json"
 				}
@@ -100,7 +100,7 @@
 				}
 			},
 			"switchResponses": {
-				"customerIdcustomer123": {
+				"customerId123": {
 					"httpStatus": 200,
 					"mockFile": "Creditcard.json"
 				}
@@ -117,24 +117,7 @@
 				}
 			},
 			"switchResponses": {
-				"customerIdcustomer123": {
-					"httpStatus": 200,
-					"mockFile": "expenditure.json"
-				}
-			}
-
-		},
-		":customerId/expenditure": {
-			"verbs": ["get"],
-			"switch": ["customerId"],
-			"responses": {
-				"get": {
-					"httpStatus": 404,
-					"mockFile": "error.json"
-				}
-			},
-			"switchResponses": {
-				"customerIdcustomer123": {
+				"customerId123": {
 					"httpStatus": 200,
 					"mockFile": "expenditure.json"
 				}
@@ -151,7 +134,7 @@
 				}
 			},
 			"switchResponses": {
-				"customerIdcustomer123": {
+				"customerId123": {
 					"httpStatus": 200,
 					"mockFile": "identification.json"
 				}
@@ -168,7 +151,7 @@
 				}
 			},
 			"switchResponses": {
-				"customerIdcustomer123": {
+				"customerId123": {
 					"httpStatus": 200,
 					"mockFile": "income.json"
 				}
@@ -185,7 +168,7 @@
 				}
 			},
 			"switchResponses": {
-				"customerIdcustomer123": {
+				"customerId123": {
 					"httpStatus": 200,
 					"mockFile": "obligations.json"
 				}
@@ -202,7 +185,7 @@
 				}
 			},
 			"switchResponses": {
-				"customerIdcustomer123": {
+				"customerId123": {
 					"httpStatus": 200,
 					"mockFile": "otherbankinformation.json"
 				}
@@ -219,7 +202,7 @@
 				}
 			},
 			"switchResponses": {
-				"customerIdcustomer123": {
+				"customerId123": {
 					"httpStatus": 200,
 					"mockFile": "riskgroup.json"
 				}
@@ -236,7 +219,7 @@
 					}
 				},
 				"switchResponses": {
-					"customerIdcustomer123": {
+					"customerId123": {
 						"httpStatus": 200,
 						"mockFile": "riskprofile.json"
 					}
