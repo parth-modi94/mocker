@@ -8,7 +8,7 @@
         ":customerId": {
             "latency": 20,
             "verbs": ["get"],
-            "switch": ["customerId",],
+            "switch": ["customerId"],
             "responses": {
                 "get": {"httpStatus": 404, "mockFile": "error.json"}
             },
