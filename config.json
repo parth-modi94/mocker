@@ -20,251 +20,213 @@
 					"httpStatus": 200,
 					"mockFile": "customerbasicinfoResponse.json"
 				}
-			},
-			"login": {
-				"verbs": ["post"],
-				"switch": ["userId", "password"],
-				"contentType": "application/json",
-				"responses": {
-					"post": {
-						"httpStatus": 200,
-						"mockFile": "error.json"
-					}
-				},
-				"switchResponses": {
-					"userIduser1passwordgood": {
-						"httpStatus": 200,
-						"mockFile": "frozen.json"
-					},
-					"userIdparthpasswordgood": {
-						"httpStatus": 200,
-						"mockFile": "titanic.json"
-					}
+			}
+		},
+		"collaterals": {
+			"verbs": ["get"],
+			"switch": ["customerId"],
+			"responses": {
+				"get": {
+					"httpStatus": 404,
+					"mockFile": "error.json"
 				}
-
 			},
-			"worklist": {
-				"verbs": ["get"],
-				"switch": ["CustomerOfferId"],
-				"responses": {
-					"get": {
-						"httpStatus": 404,
-						"mockFile": "error.json"
-					}
-				},
-				"switchResponses": {
-					"CustomerOfferIdcustomer123": {
-						"httpStatus": 200,
-						"mockFile": "worklist.json"
-					}
+			"switchResponses": {
+				"customerIdcustomer123": {
+					"httpStatus": 200,
+					"mockFile": "collateralsResponse.json"
 				}
+			}
 
-			},
-			"collaterals": {
-				"verbs": ["get"],
-				"switch": ["customerId"],
-				"responses": {
-					"get": {
-						"httpStatus": 404,
-						"mockFile": "error.json"
-					}
-				},
-				"switchResponses": {
-					"customerIdcustomer123": {
-						"httpStatus": 200,
-						"mockFile": "collateralsResponse.json"
-					}
+		},
+		":customerId/account": {
+			"verbs": ["get"],
+			"switch": ["customerId"],
+			"responses": {
+				"get": {
+					"httpStatus": 404,
+					"mockFile": "error.json"
 				}
-
 			},
-			":customerId/account": {
-				"verbs": ["get"],
-				"switch": ["customerId"],
-				"responses": {
-					"get": {
-						"httpStatus": 404,
-						"mockFile": "error.json"
-					}
-				},
-				"switchResponses": {
-					"customerIdcustomer123": {
-						"httpStatus": 200,
-						"mockFile": "Account.json"
-					}
+			"switchResponses": {
+				"customerIdcustomer123": {
+					"httpStatus": 200,
+					"mockFile": "Account.json"
 				}
+			}
 
-			},
-			":customerId/basicinfo": {
-				"verbs": ["get"],
-				"switch": ["customerId"],
-				"responses": {
-					"get": {
-						"httpStatus": 404,
-						"mockFile": "error.json"
-					}
-				},
-				"switchResponses": {
-					"customerIdcustomer123": {
-						"httpStatus": 200,
-						"mockFile": "Basicinfo.json"
-					}
+		},
+		":customerId/basicinfo": {
+			"verbs": ["get"],
+			"switch": ["customerId"],
+			"responses": {
+				"get": {
+					"httpStatus": 404,
+					"mockFile": "error.json"
 				}
-
 			},
-			":customerId/contactpoints": {
-				"verbs": ["get"],
-				"switch": ["customerId"],
-				"responses": {
-					"get": {
-						"httpStatus": 404,
-						"mockFile": "error.json"
-					}
-				},
-				"switchResponses": {
-					"customerIdcustomer123": {
-						"httpStatus": 200,
-						"mockFile": "Contactpoints.json"
-					}
+			"switchResponses": {
+				"customerIdcustomer123": {
+					"httpStatus": 200,
+					"mockFile": "Basicinfo.json"
 				}
+			}
 
-			},
-			":customerId/creditcard": {
-				"verbs": ["get"],
-				"switch": ["customerId"],
-				"responses": {
-					"get": {
-						"httpStatus": 404,
-						"mockFile": "error.json"
-					}
-				},
-				"switchResponses": {
-					"customerIdcustomer123": {
-						"httpStatus": 200,
-						"mockFile": "Creditcard.json"
-					}
+		},
+		":customerId/contactpoints": {
+			"verbs": ["get"],
+			"switch": ["customerId"],
+			"responses": {
+				"get": {
+					"httpStatus": 404,
+					"mockFile": "error.json"
 				}
-
 			},
-			":customerId/expenditure": {
-				"verbs": ["get"],
-				"switch": ["customerId"],
-				"responses": {
-					"get": {
-						"httpStatus": 404,
-						"mockFile": "error.json"
-					}
-				},
-				"switchResponses": {
-					"customerIdcustomer123": {
-						"httpStatus": 200,
-						"mockFile": "expenditure.json"
-					}
+			"switchResponses": {
+				"customerIdcustomer123": {
+					"httpStatus": 200,
+					"mockFile": "Contactpoints.json"
 				}
+			}
 
-			},
-			":customerId/expenditure": {
-				"verbs": ["get"],
-				"switch": ["customerId"],
-				"responses": {
-					"get": {
-						"httpStatus": 404,
-						"mockFile": "error.json"
-					}
-				},
-				"switchResponses": {
-					"customerIdcustomer123": {
-						"httpStatus": 200,
-						"mockFile": "expenditure.json"
-					}
+		},
+		":customerId/creditcard": {
+			"verbs": ["get"],
+			"switch": ["customerId"],
+			"responses": {
+				"get": {
+					"httpStatus": 404,
+					"mockFile": "error.json"
 				}
-
 			},
-			":customerId/identification": {
-				"verbs": ["get"],
-				"switch": ["customerId"],
-				"responses": {
-					"get": {
-						"httpStatus": 404,
-						"mockFile": "error.json"
-					}
-				},
-				"switchResponses": {
-					"customerIdcustomer123": {
-						"httpStatus": 200,
-						"mockFile": "identification.json"
-					}
+			"switchResponses": {
+				"customerIdcustomer123": {
+					"httpStatus": 200,
+					"mockFile": "Creditcard.json"
 				}
+			}
 
-			},
-			":customerId/income": {
-				"verbs": ["get"],
-				"switch": ["customerId"],
-				"responses": {
-					"get": {
-						"httpStatus": 404,
-						"mockFile": "error.json"
-					}
-				},
-				"switchResponses": {
-					"customerIdcustomer123": {
-						"httpStatus": 200,
-						"mockFile": "income.json"
-					}
+		},
+		":customerId/expenditure": {
+			"verbs": ["get"],
+			"switch": ["customerId"],
+			"responses": {
+				"get": {
+					"httpStatus": 404,
+					"mockFile": "error.json"
 				}
-
 			},
-			":customerId/obligations": {
-				"verbs": ["get"],
-				"switch": ["customerId"],
-				"responses": {
-					"get": {
-						"httpStatus": 404,
-						"mockFile": "error.json"
-					}
-				},
-				"switchResponses": {
-					"customerIdcustomer123": {
-						"httpStatus": 200,
-						"mockFile": "obligations.json"
-					}
+			"switchResponses": {
+				"customerIdcustomer123": {
+					"httpStatus": 200,
+					"mockFile": "expenditure.json"
 				}
+			}
 
-			},
-			":customerId/otherbankinformation": {
-				"verbs": ["get"],
-				"switch": ["customerId"],
-				"responses": {
-					"get": {
-						"httpStatus": 404,
-						"mockFile": "error.json"
-					}
-				},
-				"switchResponses": {
-					"customerIdcustomer123": {
-						"httpStatus": 200,
-						"mockFile": "otherbankinformation.json"
-					}
+		},
+		":customerId/expenditure": {
+			"verbs": ["get"],
+			"switch": ["customerId"],
+			"responses": {
+				"get": {
+					"httpStatus": 404,
+					"mockFile": "error.json"
 				}
-
 			},
-			":customerId/riskgroup": {
-				"verbs": ["get"],
-				"switch": ["customerId"],
-				"responses": {
-					"get": {
-						"httpStatus": 404,
-						"mockFile": "error.json"
-					}
-				},
-				"switchResponses": {
-					"customerIdcustomer123": {
-						"httpStatus": 200,
-						"mockFile": "riskgroup.json"
-					}
+			"switchResponses": {
+				"customerIdcustomer123": {
+					"httpStatus": 200,
+					"mockFile": "expenditure.json"
 				}
+			}
 
+		},
+		":customerId/identification": {
+			"verbs": ["get"],
+			"switch": ["customerId"],
+			"responses": {
+				"get": {
+					"httpStatus": 404,
+					"mockFile": "error.json"
+				}
 			},
-			":customerId/riskprofile": {
+			"switchResponses": {
+				"customerIdcustomer123": {
+					"httpStatus": 200,
+					"mockFile": "identification.json"
+				}
+			}
+
+		},
+		":customerId/income": {
+			"verbs": ["get"],
+			"switch": ["customerId"],
+			"responses": {
+				"get": {
+					"httpStatus": 404,
+					"mockFile": "error.json"
+				}
+			},
+			"switchResponses": {
+				"customerIdcustomer123": {
+					"httpStatus": 200,
+					"mockFile": "income.json"
+				}
+			}
+
+		},
+		":customerId/obligations": {
+			"verbs": ["get"],
+			"switch": ["customerId"],
+			"responses": {
+				"get": {
+					"httpStatus": 404,
+					"mockFile": "error.json"
+				}
+			},
+			"switchResponses": {
+				"customerIdcustomer123": {
+					"httpStatus": 200,
+					"mockFile": "obligations.json"
+				}
+			}
+
+		},
+		":customerId/otherbankinformation": {
+			"verbs": ["get"],
+			"switch": ["customerId"],
+			"responses": {
+				"get": {
+					"httpStatus": 404,
+					"mockFile": "error.json"
+				}
+			},
+			"switchResponses": {
+				"customerIdcustomer123": {
+					"httpStatus": 200,
+					"mockFile": "otherbankinformation.json"
+				}
+			}
+
+		},
+		":customerId/riskgroup": {
+			"verbs": ["get"],
+			"switch": ["customerId"],
+			"responses": {
+				"get": {
+					"httpStatus": 404,
+					"mockFile": "error.json"
+				}
+			},
+			"switchResponses": {
+				"customerIdcustomer123": {
+					"httpStatus": 200,
+					"mockFile": "riskgroup.json"
+				}
+			}
+
+		},
+		":customerId/riskprofile": {
 				"verbs": ["get"],
 				"switch": ["customerId"],
 				"responses": {
