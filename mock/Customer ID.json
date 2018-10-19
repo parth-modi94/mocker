@@ -1,0 +1,97 @@
+//retrieves the customer basic details contact points and profile details
+
+  "bankCustomerId": 555,
+  "customerBasicInfo": {
+    "birthDate": "12/12/1980",
+    "birthName": "Amir",
+    "familyStatus": "Married",
+    "gender": "Male",
+    "givenName": "Amir",
+    "language": "Hebrew",
+    "middleName": "Abu",
+    "minorIndicator": true,
+    "name": "Amir Hadar",
+    "namePrefix": "Amir",
+    "nameSuffix": "Hadar",
+    "nationality": "Israeli",
+    "placeOfBirth": "Tel Aviv",
+    "profession": "Banker",
+    "residentialStatus": "Rented"
+  },
+  "customerContactDetails": [
+    {
+      "contactPointIdentifier": 0,
+      "contactType": "Electronic",
+      "electronicAddress": {
+        "emailAddress": "test@test.com"
+      },
+      "phoneAddress": {
+        "areaCode": "6589",
+        "countryCode": "972",
+        "faxNumber": "559175913",
+        "mobileNumber": "559175913",
+        "phoneNumber": "559175913"
+      },
+      "postalAddress": {
+        "block": "2",
+        "buildingName": "Tel Aviv Towers I",
+        "country": "Israel",
+        "countyIdentification": "58",
+        "districtName": "Tel Aviv",
+        "districtSubDivisionIdentification": "Tel Aviv",
+        "floor": "15",
+        "mailingInstructions": "BHPSampleUnknownData",
+        "postCodeIdentification": "2154",
+        "postOfficeBox": "2, 24-32",
+        "postalAddressId": 259,
+        "province": "Tel Aviv",
+        "state": "Tel Aviv",
+        "streetName": "Yehuda Halevy St",
+        "suiteIdentification": "BHPSampleUnknownData",
+        "townName": "Tel Aviv"
+      }
+    }
+  ],
+  "customerIdentification": [
+    {
+      "associatedDocumentId": 10,
+      "declaration": "BHPSampleUnknownData",
+      "expiryDate": "10/10/2030",
+      "identificationCardNumber": "498476541654541",
+      "identificationId": "145",
+      "identifiedMarket": "BHPSampleUnknownData",
+      "issueDate": "10/10/2011",
+      "typeOfIdentification": "Civil ID"
+    }
+  ],
+  "customerProfile": {
+    "bankCustomerId": 555,
+    "branch": "Tel Aviv",
+    "childrenUnder21": true,
+    "clientLine": "BHPSampleUnknownData",
+    "customerConductClassification": "BHPSampleUnknownData",
+    "customerStatus": "Active",
+    "financialCapability": "BHPSampleUnknownData",
+    "foreignStatusCertification": "BHPSampleUnknownData",
+    "knowYourCustomerCheckType": "BHPSampleUnknownData",
+    "livingDetail": "BHPSampleUnknownData",
+    "politicalExposureType": "BHPSampleUnknownData",
+    "regulatoryScore": 3,
+    "relationshipManager": "David",
+    "riskEvaluationDate": "05/10/2018",
+    "riskGroupId": 5,
+    "riskLevel": "LOW",
+    "sourceOfWealth": "Salary"
+  },
+  "financialSummary": {
+    "creditCardIndicator": true,
+    "customerFinancialSummaryId": 1,
+    "otherBankAccountIndicator": true,
+    "totalActiveAmountInOtherBanks": 50000,
+    "totalAvailableIncome": 2000,
+    "totalCollaterals": 3000,
+    "totalLiabilities": 4500,
+    "totalPassiveAmountInOtherBanks": 2580
+  }
+}
+}

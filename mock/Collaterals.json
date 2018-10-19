@@ -1,0 +1,27 @@
+{
+  "bankCustomerID": 555,
+  "collaterals": [
+    {
+      "amount": 2000,
+      "associatedDocumentId": 14,
+      "collateralOwnership": 300,
+      "collateralStatus": "Active",
+      "collateralType": "Property",
+      "collatralAmount": 2500,
+      "valuationDate": "10/05/2018"
+    }
+  ],
+  "counterPartyRisk": {
+    "totalCollateralAfterHairCut": 1500,
+    "totalCollateralAmount": 2500,
+    "totalCollateralCurrentValue": 2300,
+    "totalExistingCollateralAfterHaircut": 1400,
+    "totalExistingCollateralCurrentValue": 1200,
+    "totalExistingObligations": 5,
+    "totalExposedAmount": 500,
+    "totalObligations": 10,
+    "totalRequestedCollaraterCurrentValue": 5600,
+    "totalRequestedCollateralAfterHairCut": 2560,
+    "totalRequestedObligations": 7000
+  }
+}

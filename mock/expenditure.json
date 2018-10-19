@@ -1,0 +1,10 @@
+{
+  "amount": 4200,
+  "associatedDocumentId": 85,
+  "bankCustomerID": 555,
+  "expenditureType": "Family Expense",
+  "month1Expense": 4000,
+  "month2Expense": 5600,
+  "month3Expense": 7500,
+  "monthlyAverage": 6000
+}

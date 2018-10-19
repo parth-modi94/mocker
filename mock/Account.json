@@ -1,0 +1,17 @@
+{
+  "accounts": [
+    {
+      "accountId": "121",
+      "accountStatus": "Active",
+      "associatedDocumentId": 24,
+      "balance": 59000,
+      "bank": "Bank Hapoalim",
+      "baseCurrency": "NIS",
+      "category": "Deposit",
+      "interestRate": 2,
+      "maturityDate": "25/04/2025",
+      "type": "Term Deposit"
+    }
+  ],
+  "bankCustomerId": 555
+}

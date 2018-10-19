@@ -1,0 +1,17 @@
+{
+  "birthDate": "12/12/1980",
+  "birthName": "Amir",
+  "familyStatus": "Married",
+  "gender": "Male",
+  "givenName": "Amir",
+  "language": "Hebrew",
+  "middleName": "Abu",
+  "minorIndicator": true,
+  "name": "Amir Hadar",
+  "namePrefix": "Amir",
+  "nameSuffix": "Hadar",
+  "nationality": "Israeli",
+  "placeOfBirth": "Tel Aviv",
+  "profession": "Banker",
+  "residentialStatus": "Rented"
+}
