@@ -40,7 +40,17 @@
                 "CustomerOfferIdcustomer123": {"httpStatus": 200, "mockFile": "worklist.json"}
             }
 			
-		}
-    
+		},
+		"collaterals":{
+			"verbs": ["get"],
+            "switch": ["customerId"],
+            "responses": {
+                "get": {"httpStatus": 404, "mockFile": "error.json"}
+            },
+            "switchResponses": {
+                "customerIdcustomer123": {"httpStatus": 200, "mockFile": "collateralsResponse.json"}
+            }
+			
+		}		
 	}
 }
