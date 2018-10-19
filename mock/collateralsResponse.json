@@ -3,7 +3,7 @@
   "collaterals": [
     {
       "amount": 50000,
-      "associatedDocumentId": docId1,
+      "associatedDocumentId": 1,
       "collateralOwnership": 1000,
       "collateralStatus": "string",
       "collateralType": "string",
