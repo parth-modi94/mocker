@@ -5,16 +5,15 @@
     "latency": 50,
     "logRequestHeaders": false,
     "webServices": {
-        "": {
+        ":customerId": {
             "latency": 20,
             "verbs": ["get"],
-            "switch": ["i"],
+            "switch": ["customerId",],
             "responses": {
                 "get": {"httpStatus": 404, "mockFile": "error.json"}
             },
             "switchResponses": {
-                "itt2294629": {"httpStatus": 200, "mockFile": "frozen.json"},
-                "itt0120338": {"httpStatus": 200, "mockFile": "titanic.json"}
+                "customerId555": {"httpStatus": 200, "mockFile": "customerbasicinfoResponse.json"},
             }
 			},
 		"login": {
@@ -51,6 +50,6 @@
                 "customerIdcustomer123": {"httpStatus": 200, "mockFile": "collateralsResponse.json"}
             }
 			
-		}		
+		}	
 	}
 }
