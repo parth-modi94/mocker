@@ -1,4 +1,4 @@
 {
-    "Response": "False",
-    "Error": "Incorrect IMDb ID."
+    "code": "404",
+    "message": "Not found"
 }
