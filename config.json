@@ -1,55 +1,82 @@
 {
-    "mockDirectory": "./mock",
-    "quiet": false,
-    "port": "8080",
-    "latency": 50,
-    "logRequestHeaders": false,
-    "webServices": {
-        ":customerId": {
-            "latency": 20,
-            "verbs": ["get"],
-            "switch": ["customerId"],
-            "responses": {
-                "get": {"httpStatus": 404, "mockFile": "error.json"}
-            },
-            "switchResponses": {
-                "customerId555": {"httpStatus": 200, "mockFile": "customerbasicinfoResponse.json"},
-            }
-			},
-		"login": {
-			"verbs": ["post"],
-			"switch": ["userId","password"],       
-			"contentType": "application/json",
+	"mockDirectory": "./mock",
+	"quiet": false,
+	"port": "8080",
+	"latency": 50,
+	"logRequestHeaders": false,
+	"webServices": {
+		":customerId": {
+			"latency": 20,
+			"verbs": ["get"],
+			"switch": ["customerId"],
 			"responses": {
-				"post": {"httpStatus": 200, "mockFile": "error.json"}
+				"get": {
+					"httpStatus": 404,
+					"mockFile": "error.json"
+				}
 			},
 			"switchResponses": {
-				"userIduser1passwordgood": {"httpStatus": 200, "mockFile": "frozen.json"},
-				"userIdparthpasswordgood": {"httpStatus": 200, "mockFile": "titanic.json"}
+				"customerId555": {
+					"httpStatus": 200,
+					"mockFile": "customerbasicinfoResponse.json"
+				}
+			},
+			"login": {
+				"verbs": ["post"],
+				"switch": ["userId", "password"],
+				"contentType": "application/json",
+				"responses": {
+					"post": {
+						"httpStatus": 200,
+						"mockFile": "error.json"
+					}
+				},
+				"switchResponses": {
+					"userIduser1passwordgood": {
+						"httpStatus": 200,
+						"mockFile": "frozen.json"
+					},
+					"userIdparthpasswordgood": {
+						"httpStatus": 200,
+						"mockFile": "titanic.json"
+					}
+				}
+
+			},
+			"worklist": {
+				"verbs": ["get"],
+				"switch": ["CustomerOfferId"],
+				"responses": {
+					"get": {
+						"httpStatus": 404,
+						"mockFile": "error.json"
+					}
+				},
+				"switchResponses": {
+					"CustomerOfferIdcustomer123": {
+						"httpStatus": 200,
+						"mockFile": "worklist.json"
+					}
+				}
+
+			},
+			"collaterals": {
+				"verbs": ["get"],
+				"switch": ["customerId"],
+				"responses": {
+					"get": {
+						"httpStatus": 404,
+						"mockFile": "error.json"
+					}
+				},
+				"switchResponses": {
+					"customerIdcustomer123": {
+						"httpStatus": 200,
+						"mockFile": "collateralsResponse.json"
+					}
+				}
+
 			}
-		
-        },
-		"worklist":{
-			"verbs": ["get"],
-            "switch": ["CustomerOfferId"],
-            "responses": {
-                "get": {"httpStatus": 404, "mockFile": "error.json"}
-            },
-            "switchResponses": {
-                "CustomerOfferIdcustomer123": {"httpStatus": 200, "mockFile": "worklist.json"}
-            }
-			
-		},
-		"collaterals":{
-			"verbs": ["get"],
-            "switch": ["customerId"],
-            "responses": {
-                "get": {"httpStatus": 404, "mockFile": "error.json"}
-            },
-            "switchResponses": {
-                "customerIdcustomer123": {"httpStatus": 200, "mockFile": "collateralsResponse.json"}
-            }
-			
-		}	
+		}
 	}
 }
