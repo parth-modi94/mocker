@@ -34,7 +34,7 @@
 			"switchResponses": {
 				"customerId555": {
 					"httpStatus": 200,
-					"mockFile": "collateralsResponse.json"
+					"mockFile": "Collaterals.json"
 				}
 			}
 
