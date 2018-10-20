@@ -1,5 +1,5 @@
 {
-  "bankCustomerID": 555,
+  "bankCustomerId": 555,
   "collaterals": [
     {
       "amount": 2000,
