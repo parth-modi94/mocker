@@ -32,6 +32,7 @@
 					"httpStatus": 404,
 					"mockFile": "error.json"
 				}
+				
 			},
 			"switchResponses": {
 				"customerId555": {
