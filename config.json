@@ -243,33 +243,16 @@
 			}
 
 		},
-		"login": {
+		"registerStandingOrder": {
 		      "verbs": ["post"],
-		      "switch": ["userId", "password"],
+		      "switch": ["accountNumber", "amount"],
 		      "responses": {
-			"post": {"httpStatus": 401}
+			"post": {"httpStatus": 404}
 		      },
 		      "switchResponses": {
-			"userIdadminpasswordgood": {"httpStatus": 200}
+			"accountNumber875642310amount500": {"httpStatus": 200}
 		      }
-		 },
-		"registerStandingOrder": {
-			"verbs": ["post"],
-			"switch": ["accountNumber,amount"],
-			"responses": {
-				"post": {
-					"httpStatus": 404,
-					"mockFile": "error.json"
-				}
-			},
-			"switchResponses": {
-				"accountNumber875642310amount500": {
-					"httpStatus": 200,
-					"mockFile": "AccountManagement_AccountStatus.json"
-				}
-			}
-
-		}
+		 }
 		
 	}
 }
