@@ -21,7 +21,6 @@
 					"mockFile": "Collaterals.json"
 				}
 			}
-
 		},
 		":customerId": {
 			"latency": 20,
