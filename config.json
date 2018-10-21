@@ -242,6 +242,22 @@
 				}
 			}
 
+		},
+		"registerStandingOrder": {
+			"verbs": ["post"],
+			"switch": ["accountNumber,amount,bankCode,branchCode,day,timeSpecification,validityPeriod"],
+			"responses": {
+				"get": {
+					"httpStatus": 404,
+					"mockFile": "error.json"
+				}
+			},
+			"switchResponses": {
+				"accountNumber87564231amount5000bankCode12branchCode56day5timeSpecification validityPeriod2 months": {
+					"httpStatus": 200
+				}
+			}
+
 		}
 		
 	}
