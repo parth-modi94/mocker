@@ -250,7 +250,7 @@
 			"post": {"httpStatus": 404}
 		      },
 		      "switchResponses": {
-			"accountNumber87564231amount5000bankCode12branchCode56day5timeSpecificationvalidityPeriod2 months": {"httpStatus": 200}
+			"accountNumber87564231amount5000bankCode12branchCode56day5timeSpecificationunknownvalidityPeriod2months": {"httpStatus": 200}
 		      }
 		 }
 		
