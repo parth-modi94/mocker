@@ -247,7 +247,7 @@
 			"verbs": ["post"],
 			"switch": ["accountNumber,amount,bankCode,branchCode,day,timeSpecification,validityPeriod"],
 			"responses": {
-				"get": {
+				"post": {
 					"httpStatus": 404,
 					"mockFile": "error.json"
 				}
