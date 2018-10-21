@@ -1,0 +1,47 @@
+{
+  "amoritizationTableMethod": "BHPSampleUnknownData",
+  "commission": 50,
+  "coordinatedInterest": 3,
+  "customerOfferId": 254,
+  "discountRate": 5,
+  "effectiveCostRate": 6.4365,
+  "effectiveDate": "20/09/2018",
+  "fees": 20,
+  "gracePeriod": "5",
+  "interestCalculationBase": "BHPSampleUnknownData",
+  "interestCalculationMethod": "BHPSampleUnknownData",
+  "otherExpenses": 100,
+  "paymentAmount": 150,
+  "paymentDistribution": {
+    "item": [
+      {
+        "activityFrequency": "Monthly",
+        "activityType": "BHPSampleUnknownData",
+        "collectedFees": 100,
+        "delayedInterest": 3,
+        "fromDate": "20/05/2018",
+        "interestAccumulation": 2,
+        "interestPaymentAmount": 50,
+        "interestRate": 6,
+        "itemSequence": 4,
+        "numberOfActivities": 3,
+        "paymentAmount": 1000,
+        "periodicInterest": 10,
+        "principalAmount": 50000,
+        "principalBalance": 2000,
+        "principlePaymentAmount": 10000,
+        "profitRate": 7,
+        "toDate": "20/06/2019"
+      }
+    ]
+  },
+  "paymentFrequency": "Monthly",
+  "paymentPeriod": "12",
+  "principalAmount": 50000,
+  "rate": 6,
+  "requestedInterest": 4,
+  "specialFare": 20,
+  "totalActionCommission": 50,
+  "totalCollectionFees": 50,
+  "totalInterest": 10
+}

@@ -1,0 +1,39 @@
+{
+	"productCharacteristics": [{
+		"code": "PRCNAMT",
+		"dataType": "double",
+		"maxValue": "100000",
+		"minValue": "1000",
+		"name": "Principal Amount",
+		"unit": "NIS"
+	}, {
+		"code": "PaymentFrequency",
+		"dataType": "integer",
+		"maxValue": "60",
+		"minValue": "12",
+		"name": "Payment Frequency",
+		"unit": "months",
+		"valueSet": [{
+				"code": "12",
+				"value": "12"
+			},
+			{
+				"code": "24",
+				"value": "24"
+			},
+			{
+				"code": "36",
+				"value": "36"
+			},
+			{
+				"code": "48",
+				"value": "48"
+			},
+			{
+				"code": "60",
+				"value": "60"
+			}
+		]
+	}],
+	"productID": 111
+}

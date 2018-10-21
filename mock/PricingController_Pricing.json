@@ -1,0 +1,7 @@
+{
+  "handlingFee": 10,
+  "otherExpenseAmount": 100,
+  "otherExpenseType": "Service fees",
+  "specialFee": 25,
+  "totalCommissionAmount": 50
+}

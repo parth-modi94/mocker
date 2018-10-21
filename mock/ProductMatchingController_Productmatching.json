@@ -1,0 +1,53 @@
+[{
+		"name": "shekelloan",
+		"product": [{
+				"name": "PersonalLoan",
+				"productId": 11,
+				"subProduct": [{
+					"name": "Travel Loan",
+					"productId": 111
+				}, {
+					"name": "Medical Loan",
+					"productId": 112
+				}]
+			},
+			{
+				"name": "AutoLoan",
+				"productId": 12,
+				"subProduct": [{
+					"name": "Car Loan",
+					"productId": 121
+				}, {
+					"name": "Bike Loan",
+					"productId": 122
+				}]
+			}
+		],
+		"productCategoryId": 1
+	}, {
+		"name": "account",
+		"product": [{
+			"name": "SavingAccount",
+			"productId": 21,
+			"subProduct": [{
+				"name": "Yougstar Account",
+				"productId": 211
+			}, {
+				"name": "Privilege Account",
+				"productId": 212
+			}]
+		}, {
+			"name": "Deposit",
+			"productId": 22,
+			"subProduct": [{
+				"name": "Term Deposit",
+				"productId": 221
+			}, {
+				"name": "Fixed Deposit",
+				"productId": 222
+			}]
+		}],
+		"productCategoryId": 2
+	}
+
+]

@@ -1,0 +1,54 @@
+{
+  "bankCustomerId": 555,
+  "contactPoint": [
+    {
+      "contactPointIdentifier": 0,
+      "contactType": "Electronic",
+      "electronicAddress": {
+        "emailAddress": "test@test.com"
+      },
+      "phoneAddress": {
+        "areaCode": "6589",
+        "countryCode": "972",
+        "faxNumber": "559175913",
+        "mobileNumber": "559175913",
+        "phoneNumber": "559175913"
+      },
+      "postalAddress": {
+        "block": "2",
+        "buildingName": "Tel Aviv Towers I",
+        "country": "Israel",
+        "countyIdentification": "58",
+        "districtName": "Tel Aviv",
+        "districtSubDivisionIdentification": "Tel Aviv",
+        "floor": "15",
+        "mailingInstructions": "BHPSampleUnknownData",
+        "postCodeIdentification": "2154",
+        "postOfficeBox": "2, 24-32",
+        "postalAddressId": 259,
+        "province": "Tel Aviv",
+        "state": "Tel Aviv",
+        "streetName": "Yehuda Halevy St",
+        "suiteIdentification": "BHPSampleUnknownData",
+        "townName": "Tel Aviv"
+      }
+    }
+  ],
+  "customerBasicInfo": {
+    "birthDate": "12/12/1980",
+    "birthName": "Amir",
+    "familyStatus": "Married",
+    "gender": "Male",
+    "givenName": "Amir",
+    "language": "Hebrew",
+    "middleName": "Abu",
+    "minorIndicator": true,
+    "name": "Amir Hadar",
+    "namePrefix": "Amir",
+    "nameSuffix": "Hadar",
+    "nationality": "Israeli",
+    "placeOfBirth": "Tel Aviv"",
+    "profession": "Banker",
+    "residentialStatus": "Rented"
+  }
+}

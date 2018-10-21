@@ -1,0 +1,9 @@
+{
+  "accountNumber": "87564231",
+  "amount": 5000,
+  "bankCode": "12",
+  "branchCode": "56",
+  "day": "5",
+  "timeSpecification": "",
+  "validityPeriod": "2 months"
+}

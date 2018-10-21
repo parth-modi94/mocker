@@ -1,0 +1,19 @@
+{
+  "activeBalanceInBHP": 10000,
+  "activeBalanceinOtherBanks": 5600,
+  "bankCustomerID": 555,
+  "channelCode": "BHPSampleUnknownData",
+  "creditAmount": 600,
+  "creditCardIndicator": true,
+  "customerExternalCreditScore": 5,
+  "customerInternalRiskScore": 3,
+  "monthlyPaymentAmount": 500,
+  "otherBankIndicator": true,
+  "passiveBalanceInBHP": 2000,
+  "passiveBalanceinOtherBanks": 500,
+  "productId": 854,
+  "sourceOfIncome": [
+    "Salary"
+  ],
+  "totalAvailableIncome": 25000
+}

@@ -1,0 +1,13 @@
+{
+  "assessmentType": "Personal",
+  "decisionAuthority": "BM,AGM/GM",
+  "decisionFactors": [
+    {
+      "code": "",
+      "description": ""
+    }
+  ],
+  "decisionRecommendation": "Refer",
+  "statusCode": "12",
+  "validityTime": "30 days"
+}

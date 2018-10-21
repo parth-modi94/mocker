@@ -1,0 +1,17 @@
+[
+  {
+    "archivalStatus": "Archived",
+    "customerOfferId": 254,
+    "document": "Loan Document",
+    "documentFormat": "pdf",
+    "documentId": 111,
+    "documentName": "Loan Supporting documents",
+    "documentReferenceNumber": "L78634",
+    "documentUploadedIndicator": true,
+    "originalSightedIndicator": true,
+    "purpose": "Loan Supporting document",
+    "signedIndicator": true,
+    "targetCustomerId": 555,
+    "type": "Loan Account"
+  }
+]
