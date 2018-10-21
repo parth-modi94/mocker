@@ -245,7 +245,7 @@
 		},
 		"registerStandingOrder": {
 			"verbs": ["post"],
-			"switch": ["accountNumber,amount,bankCode,branchCode,day,timeSpecification,validityPeriod"],
+			"switch": ["accountNumber,amount"],
 			"responses": {
 				"post": {
 					"httpStatus": 404,
@@ -253,7 +253,7 @@
 				}
 			},
 			"switchResponses": {
-				"accountNumber875642310amount500bankCode12branchCode56timeSpecification1day5validityPeriod2months": {
+				"accountNumber875642310amount500": {
 					"httpStatus": 200
 				}
 			}
