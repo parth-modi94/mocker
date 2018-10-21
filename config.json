@@ -253,7 +253,7 @@
 				}
 			},
 			"switchResponses": {
-				"validityPeriod2 monthstimeSpecificationday5branchCode56bankCode12amount500accountNumber875642310": {
+				"accountNumber875642310amount500bankCode12branchCode56timeSpecification1day5validityPeriod2months": {
 					"httpStatus": 200
 				}
 			}
