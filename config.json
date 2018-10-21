@@ -5,7 +5,6 @@
 	"latency": 50,
 	"logRequestHeaders": false,
 	"webServices": {
-	
 		"collaterals": {
 			"verbs": ["get"],
 			"switch": ["customerId"],
