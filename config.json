@@ -254,7 +254,8 @@
 			},
 			"switchResponses": {
 				"accountNumber875642310amount500": {
-					"httpStatus": 200
+					"httpStatus": 200,
+					"mockFile": "AccountManagement_AccountStatus.json"
 				}
 			}
 
