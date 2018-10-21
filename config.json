@@ -243,6 +243,16 @@
 			}
 
 		},
+		"login": {
+		      "verbs": ["post"],
+		      "switch": ["userId", "password"],
+		      "responses": {
+			"post": {"httpStatus": 401}
+		      },
+		      "switchResponses": {
+			"userIdadminpasswordgood": {"httpStatus": 200}
+		      }
+		 },
 		"registerStandingOrder": {
 			"verbs": ["post"],
 			"switch": ["accountNumber,amount"],
