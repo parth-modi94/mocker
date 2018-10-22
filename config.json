@@ -5,7 +5,22 @@
 	"latency": 50,
 	"logRequestHeaders": false,
 	"webServices": {
-		
+		"pricing": {
+			"verbs": ["get"],
+			"switch": ["customerOfferId"],
+			"responses": {
+				"get": {
+					"httpStatus": 404,
+					"mockFile": "error.json"
+				}
+			},
+			"switchResponses": {
+				"customerOfferId254": {
+					"httpStatus": 200,
+					"mockFile": "PricingController_Pricing.json"
+				}
+			}
+		},
 		"collaterals": {
 			"verbs": ["get"],
 			"switch": ["customerId"],
@@ -250,9 +265,189 @@
 			"post": {"httpStatus": 404}
 		      },
 		      "switchResponses": {
-			"accountNumber87564231amount5000bankCode12branchCode56day5timeSpecificationunknownvalidityPeriod2months": {"httpStatus": 200}
+				"accountNumber87564231": {"httpStatus": 200}
 		      }
-		 }
+		 },
+		 "amortizationtable": {
+			"verbs": ["post"],
+			"switch": ["bankCustomerId"],
+			"responses": {
+				"post": {
+					"httpStatus": 200,
+					"mockFile": "ConsumerLoanController_AmortizationTable.json"
+				}
+			},
+			"switchResponses": {
+				"bankCustomerId555": {
+					"httpStatus": 200,
+					"mockFile": "ConsumerLoanController_AmortizationTable.json"
+				}
+			}
+
+		},
+		 "effectivecost": {
+			"verbs": ["post"],
+			"switch": ["customerOfferId"],
+			"responses": {
+				"post": {
+					"httpStatus": 404,
+					"mockFile": "error.json"
+				}
+			},
+			"switchResponses": {
+				"customerOfferId254": {
+					"httpStatus": 200,
+					"mockFile": "ConsumerLoanController_EffectiveCost.json"
+				}
+			}
+
+		},
+		"riskscore": {
+			"verbs": ["post"],
+			"switch": ["bankCustomerId"],
+			"responses": {
+				"post": {
+					"httpStatus": 404,
+					"mockFile": "error.json"
+				}
+			},
+			"switchResponses": {
+				"bankCustomerId555": {
+					"httpStatus": 200,
+					"mockFile": "CounterPartRiskController_riskscore_output.json"
+				}
+			}
+
+		},
+		"documentmanagement/document": {
+			"verbs": ["post"],
+			"switch": ["customerOfferId"],
+			"responses": {
+				"post": {
+					"httpStatus": 200
+				}
+			},
+			"switchResponses": {
+				"customerOfferId254": {
+					"httpStatus": 200}
+			}
+
+		},
+		"documentmanagement/:documentId": {
+			"verbs": ["get"],
+			"switch": ["documentId"],
+			"responses": {
+				"get": {
+					"httpStatus": 404,
+					"mockFile": "error.json"
+				}
+			},
+			"switchResponses": {
+				"documentId111": {
+					"httpStatus": 200,
+					"mockFile": "DocumentManagementController_DocumentManagement_Documentid.json"
+				}
+			}
+
+		},
+		":partyId": {
+			"latency": 20,
+			"verbs": ["put"],
+			"switch": ["bankCustomerId"],
+			"responses": {
+				"put": {
+					"httpStatus": 200
+				}	
+			},
+			"switchResponses": {
+				"bankCustomerId555": {
+					"httpStatus": 200,
+					"mockFile": "PartyDataManagementController_UpdateCustomerInformation.json"
+				}
+			}
+		},
+		"":{
+			"verbs": ["post"],
+			"switch": ["customerOfferId"],
+			"responses": {
+				"post": {
+					"httpStatus": 200
+				}
+			},
+			"switchResponses": {
+				"customerOfferId254": {
+					"httpStatus": 200}
+			}
+
+		},
+		"productdirectory/:productId/documentchecklist": {
+			"verbs": ["get"],
+			"switch": ["productId"],
+			"responses": {
+				"get": {
+					"httpStatus": 404,
+					"mockFile": "error.json"
+				}
+			},
+			"switchResponses": {
+				"productId854": {
+					"httpStatus": 200,
+					"mockFile": "ProductDirectoryController_documentchecklist.json"
+				}
+			}
+
+		},
+		"productdirectory/:productId/productcharacteristics": {
+			"verbs": ["get"],
+			"switch": ["productId"],
+			"responses": {
+				"get": {
+					"httpStatus": 404,
+					"mockFile": "error.json"
+				}
+			},
+			"switchResponses": {
+				"productId854": {
+					"httpStatus": 200,
+					"mockFile": "ProductDirectoryController_documentchecklist.json"
+				}
+			}
+
+		},
+		"productmatching": {
+			"verbs": ["post"],
+			"switch": ["bankCustomerId"],
+			"responses": {
+				"post": {
+					"httpStatus": 200,
+					"mockFile": "ProductMatchingController_Productmatching.json"
+				}
+			},
+			"switchResponses": {
+				"bankCustomerId555": {
+					"httpStatus": 200,
+					"mockFile": "ProductMatchingController_Productmatching.json"
+				}
+			}
+
+		},
+		"creditdecision": {
+			"verbs": ["post"],
+			"switch": ["bankCustomerId","productId"],
+			"responses": {
+				"post": {
+					"httpStatus": 404,
+					"mockFile": "error.json"
+				}
+			},
+			"switchResponses": {
+				"bankCustomerId555productId854": {
+					"httpStatus": 200,
+					"mockFile": "UnderwritingController_creditdecision_output.json"
+				}
+			}
+
+		}
 		
 	}
 }
